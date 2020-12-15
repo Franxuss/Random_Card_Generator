@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+
+.card-heart {
+  margin: auto;
+  margin-top: 2%;
+  background: white;
+  width: 25%;
+  height: 75vh;
+  border-radius: 5%;
+  border: 5px solid black;
+  box-shadow: 20px 20px 40px rgb(85, 85, 85);
+}
+.firtsrow {
+  height: 20%;
+  margin-left: 7%;
+}
+.number {
+  height: 60%;
+  color: black !important;
+  font-family: "Libre Baskerville", serif;
+}
+.secondrow {
+  height: 20%;
+  transform: rotate(180deg);
+  margin-left: 71%;
+}
+h2 {
+  font-size: 150px;
+}
+h1 {
+  margin: 0px;
+  margin-right: 2%;
+  font-size: 22rem;
+}
+.redcolor {
+  color: red;
+}
+.numSize {
+  font-size: 19rem;
+  margin-right: 2%;
+}
+.btn {
+  width: 15%;
+  height: 50px;
+  border: 2px solid black;
+  margin-left: 42.5%;
+  margin-top: 2%;
+}
