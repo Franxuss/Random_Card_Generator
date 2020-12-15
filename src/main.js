@@ -74,10 +74,12 @@ document.getElementById("button").onmouseout = function() {
 
 function mouseOver() {
   document.getElementById("button").innerHTML = "You can't stop now!";
+  document.getElementById("button").style.color = "white";
 }
 
 function mouseOut() {
   document.getElementById("button").innerHTML = "Come on!";
+  document.getElementById("button").style.color = "white";
 }
 
 //////////////////////////////Manteniendo pulsado
@@ -91,10 +93,6 @@ document.getElementById("button").onmouseup = function() {
 
 function mouseDown() {
   document.getElementById("button").innerHTML = "Allrigth!";
-  document.getElementById("button").style.background = "#9BFF00";
+  document.getElementById("button").classList.add("gradient");
   document.getElementById("button").style.color = "black";
-}
-
-function mouseUp() {
-  document.getElementById("button").innerHTML = "Come on!";
 }
